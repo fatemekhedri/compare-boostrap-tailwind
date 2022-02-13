@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .App {
   text-align: center;
 }
@@ -5,6 +8,10 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.box-size-gallery{
+  width: 8rem;
+  height: 8rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
